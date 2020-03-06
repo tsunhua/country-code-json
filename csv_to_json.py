@@ -4,6 +4,7 @@
 import csv
 import json
 
+# https://github.com/datasets/country-codes/blob/master/data/country-codes.csv
 csvfile = open('country.csv', 'r')
 jsonfile = open('country.json', 'w')
 fieldnames = ("name", "alpha-2", "alpha-3")
